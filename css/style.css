@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+height: 100vh;
+background-size:cover;
+background-position: center;
+}
+.nav-bar{
+    background: rgba(0, 0, 100, 0.527);
+    height: 80px;
+}
+.house{
+margin: 10px,50px;
+height: 800px;
+}
+.laptop{
+margin: 10px,50px;
+height: 200px;
+width: 300px;
+}
+.menu{
+    float: right;
+    list-style: none;
+    margin: 20px;
+}
+.menu li{
+    display: inline-block;
+    margin: 10px 5px;
+}
+    .menu li a{
+    text-decoration: none;
+    padding: 5px 10px;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+}
+.menu li a:hover{
+    background: #fff;
+    transition: .2s;
+}
+.welcome{
+    position: relative; 
+    text-align: center;
+    font-family: sans-serif;
+    top: 160px;
+}
+ h1{
+    font-size: 42px;
+    margin: 25px;
+    color: #000;
+}
+.btn{
+    font-size: 18px;
+    letter-spacing: 2px;
+    margin: 5px;
+    padding: 5px,10px;
+    text-decoration: none;
+    border: 2px dashed blue;
+}
+btn1{
+    background: white;
+}
+btn2{
+}
+btn2:hover{
+    transition: .2s;
+}
+.wild{
+    display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+img:hover{
+  border: black 3px solid;
+ transition: 1s;
+}
+img{
+    height: 500px;
+    width:500px; 
+    margin : 5px;
+    border-radius: 40px;
+    float: right;
+}
+.life{
+    text-align: center;
+}
+.lone{
+    text-align: center;
+    height: 1500px;
+     width: 800px; 
+}
+p{
+    font-size: 30px;
+}
+a{
+    font-size: 20px;
+}
+.face{
+ height: 100px;
+ width:100px;
+ float: left;
+ border-radius: 10px;
+
+}
+.tweet{
+    height: 100px;
+    width:100px;
+    float: left;
+    border-radius: 10px;
+   
+}
+.gmail{
+    height: 100px;
+    width:100px;
+    float: left;
+    border-radius: 10px;
+}
+.tact{
+    margin: 50px;
+}
