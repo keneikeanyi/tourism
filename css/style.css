@@ -119,7 +119,7 @@ a{
 .tact{
     margin: 50px;
 }
-@media screen and (min-width:800px) {
+@media screen and (max-width:800px) {
     h1{font-size:35px ;
 
     }
