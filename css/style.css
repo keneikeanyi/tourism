@@ -45,7 +45,8 @@ width: 300px;
     font-family: sans-serif;
     top: 160px;
 }
- h1{
+
+.web{
     font-size: 48px;
     margin: 25px;
     color: #000;
@@ -84,6 +85,9 @@ img{
 }
 .life{
     text-align: center;
+    font-size: 48px;
+    margin: 25px;
+    color: #000;
 }
 .lone{
     text-align: center;
@@ -119,8 +123,9 @@ a{
 .tact{
     margin: 50px;
 }
-@media screen and (max-width:800px) {
-    h1{font-size:35px ;
 
+@media screen and (min-width:768px) {
+    h1{
+        font-size: 30px;
     }
   }
